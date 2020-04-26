@@ -44,7 +44,7 @@ class FooBar {
             lock.lock();
             if(flag==false)
             {
-                condition.await();
+                condition.await();  //123123
             }
             printBar.run();
             flag = false;
